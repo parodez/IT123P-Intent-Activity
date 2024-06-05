@@ -4,13 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:text="Intent Activity"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@id/btnBermudez"
+        android:id="@+id/textView1" />
     <Button
         android:text="Paul Ronald P. Bermudez"
         android:layout_width="300dp"
         android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_above="@id/btnBorbe"
         android:minWidth="25px"
         android:minHeight="25px"
-        android:id="@+id/btnBermudez" 
+        android:id="@+id/btnBermudez"
         android:layout_centerHorizontal="true"/>
     <Button
         android:text="Raynielle Joseph Z. Borbe"
@@ -18,18 +29,18 @@
         android:layout_height="50dp"
         android:minWidth="25px"
         android:minHeight="25px"
-        android:id="@+id/btnBorbe" 
+        android:id="@+id/btnBorbe"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/btnBermudez"/>
+        android:layout_above="@id/btnCaballero"/>
     <Button
         android:text="Louise Angela Caballero"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:minWidth="25px"
         android:minHeight="25px"
-        android:id="@+id/btnCaballero" 
+        android:id="@+id/btnCaballero"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/btnBorbe"/>
+        android:layout_centerVertical="true"/>
     <Button
         android:text="Ma. Angelica Lynneth J. Dano"
         android:layout_width="300dp"
@@ -45,8 +56,7 @@
         android:layout_height="50dp"
         android:minWidth="25px"
         android:minHeight="25px"
-        android:id="@+id/btnVillanueva" 
+        android:id="@+id/btnVillanueva"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/btnDano"/>
-
 </RelativeLayout>
