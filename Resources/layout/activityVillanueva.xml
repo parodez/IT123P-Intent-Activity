@@ -16,6 +16,7 @@
 
     <TextView
         android:text="Member Name: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50px"
@@ -29,6 +30,7 @@
         android:text="Villanueva, Zhen Marie G."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/nameTextView2"
         android:layout_marginLeft="50px"
         android:layout_gravity="left" />
@@ -36,6 +38,7 @@
         android:text="Member Program: "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/progTextView1"
         android:layout_marginTop="50px"
         android:layout_marginLeft="50px"
@@ -46,6 +49,7 @@
         android:text="BSCS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/progTextView2"
         android:layout_marginLeft="50px"
         android:layout_gravity="left" />
@@ -53,6 +57,7 @@
         android:text="Member Contact Number:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/numberTextView1" 
         android:layout_marginTop="50px"
         android:layout_marginLeft="50px"
@@ -63,6 +68,7 @@
         android:text="0919-315-5654"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/numberTextView2"
         android:layout_marginLeft="50px"
         android:layout_gravity="left" />
@@ -71,6 +77,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/fbLink1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_marginTop="50px"
         android:layout_marginLeft="50px"
         android:layout_gravity="left"
@@ -80,6 +87,7 @@
         android:text="https://www.facebook.com/YUK1T0R1/"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/fbLink2"
         android:layout_marginLeft="50px"
         android:layout_gravity="left"
