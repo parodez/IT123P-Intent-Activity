@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView1" />
+
+    <TextView
+        android:text="MEMBER NAME:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView1" />
+
+    <TextView
+        android:text="Ma. Angelica Lynneth J. Daño"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/memberName" />
+
+    <TextView
+        android:text="MEMBER PROGRAM:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/memberName"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="BS Computer Science"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/memberProgram" />
+
+    <TextView
+        android:text="MEMBER CONTACT NUMBER:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/memberProgram"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:text="09917105905"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/memberContact" />
+
+    <TextView
+        android:text="MEMBER FACEBOOK URL:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/memberContact"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:text="https://www.facebook.com/HeyyLynneth"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:id="@+id/memberFB" />
+
+</RelativeLayout>
